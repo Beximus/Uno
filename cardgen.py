@@ -92,7 +92,7 @@ def playmaker():
                 playrules.append(rules[2])
             elif card[0]=='Wild':
                 playoptions.append(card)
-                playrules.append(rules[4])
+                playrules.append(rules[2])
     
     # GENERATES LIST OF POSSIBLE MOVES
     if len(playoptions)>0:
@@ -116,7 +116,7 @@ def playmaker():
 # WRITES CSV FILE AND RUNS AS MANY LINES AS WANTED CURRENTLY SET TO 1000
 
 def outputter():
-    with open('Example.csv','w',newline='') as file:
+    with open('example.csv','w',newline='') as file:
         writer = csv.writer(file)
         i=0
         startline = ["Card on the Table:","Cards in Hand:","Possible Move:","Applicable rule:"]
