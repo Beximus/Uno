@@ -1,0 +1,289 @@
+Card on the Table:,Cards in Hand:,Possible Move:,Applicable rule:
+Red 2,"Red 8, Yellow 1, Blue Draw 2, Green 7, Blue 5, Yellow Draw 2, Green 6",Red 8,it is the same color as the tabled card
+Blue 6,"Red 8, Wild Draw 4, Blue 5, Green Skip, Blue Skip, Red 4, Green 1",Wild Draw 4,it is the same color and type as the tabled card
+Blue 6,"Red 8, Wild Draw 4, Blue 5, Green Skip, Blue Skip, Red 4, Green 1",Blue 5,it is the same color as the tabled card
+Blue 6,"Red 8, Wild Draw 4, Blue 5, Green Skip, Blue Skip, Red 4, Green 1",Blue Skip,it is the same color as the tabled card
+Yellow 8,"Green 3, Green Skip, Blue 5, Green 6, Yellow 3, Blue 6, Yellow Skip",Yellow 3,it is the same color as the tabled card
+Yellow 8,"Green 3, Green Skip, Blue 5, Green 6, Yellow 3, Blue 6, Yellow Skip",Yellow Skip,it is the same color as the tabled card
+Blue Skip,"Red 1, Green 8, Red 3, Green 7, Blue 7, Wild Draw 4, Blue Skip",Blue 7,it is the same color as the tabled card
+Blue Skip,"Red 1, Green 8, Red 3, Green 7, Blue 7, Wild Draw 4, Blue Skip",Wild Draw 4,it is the same color and type as the tabled card
+Blue Skip,"Red 1, Green 8, Red 3, Green 7, Blue 7, Wild Draw 4, Blue Skip",Blue Skip,it is the same color as the tabled card
+Green 1,"Yellow 1, Wild Draw 4, Yellow 1, Blue Skip, Blue 7, Green 3, Green 2",Yellow 1,Wild cards can be played on any colour
+Green 1,"Yellow 1, Wild Draw 4, Yellow 1, Blue Skip, Blue 7, Green 3, Green 2",Wild Draw 4,it is the same color and type as the tabled card
+Green 1,"Yellow 1, Wild Draw 4, Yellow 1, Blue Skip, Blue 7, Green 3, Green 2",Yellow 1,Wild cards can be played on any colour
+Green 1,"Yellow 1, Wild Draw 4, Yellow 1, Blue Skip, Blue 7, Green 3, Green 2",Green 3,it is the same color as the tabled card
+Green 1,"Yellow 1, Wild Draw 4, Yellow 1, Blue Skip, Blue 7, Green 3, Green 2",Green 2,it is the same color as the tabled card
+Green 2,"Yellow Reverse, Red 2, Wild Normal, Red Draw 2, Green 7, Red 6, Green 8",Red 2,Wild cards can be played on any colour
+Green 2,"Yellow Reverse, Red 2, Wild Normal, Red Draw 2, Green 7, Red 6, Green 8",Wild Normal,it is the same color and type as the tabled card
+Green 2,"Yellow Reverse, Red 2, Wild Normal, Red Draw 2, Green 7, Red 6, Green 8",Green 7,it is the same color as the tabled card
+Green 2,"Yellow Reverse, Red 2, Wild Normal, Red Draw 2, Green 7, Red 6, Green 8",Green 8,it is the same color as the tabled card
+Red 8,"Blue 7, Yellow Reverse, Green 3, Blue 7, Blue Skip, Red 2, Green 5",Red 2,it is the same color as the tabled card
+Red 9,"Red 1, Red 6, Yellow 9, Blue 5, Red 7, Red 5, Green 4",Red 1,it is the same color as the tabled card
+Red 9,"Red 1, Red 6, Yellow 9, Blue 5, Red 7, Red 5, Green 4",Red 6,it is the same color as the tabled card
+Red 9,"Red 1, Red 6, Yellow 9, Blue 5, Red 7, Red 5, Green 4",Yellow 9,Wild cards can be played on any colour
+Red 9,"Red 1, Red 6, Yellow 9, Blue 5, Red 7, Red 5, Green 4",Red 7,it is the same color as the tabled card
+Red 9,"Red 1, Red 6, Yellow 9, Blue 5, Red 7, Red 5, Green 4",Red 5,it is the same color as the tabled card
+Red 5,"Wild Draw 4, Blue 8, Green 9, Blue 1, Wild Draw 4, Wild Draw 4, Blue 2",Wild Draw 4,it is the same color and type as the tabled card
+Red 5,"Wild Draw 4, Blue 8, Green 9, Blue 1, Wild Draw 4, Wild Draw 4, Blue 2",Wild Draw 4,it is the same color and type as the tabled card
+Red 5,"Wild Draw 4, Blue 8, Green 9, Blue 1, Wild Draw 4, Wild Draw 4, Blue 2",Wild Draw 4,it is the same color and type as the tabled card
+Blue 6,"Green Reverse, Wild Normal, Green 1, Yellow 3, Blue Skip, Red 4, Green 7",Wild Normal,it is the same color and type as the tabled card
+Blue 6,"Green Reverse, Wild Normal, Green 1, Yellow 3, Blue Skip, Red 4, Green 7",Blue Skip,it is the same color as the tabled card
+Green 2,"Green 9, Green 6, Blue 7, Blue 4, Red Draw 2, Yellow Draw 2, Yellow 8",Green 9,it is the same color as the tabled card
+Green 2,"Green 9, Green 6, Blue 7, Blue 4, Red Draw 2, Yellow Draw 2, Yellow 8",Green 6,it is the same color as the tabled card
+Green 2,"Red Reverse, Blue 5, Yellow Reverse, Red 7, Yellow 6, Green 9, Yellow 0",Green 9,it is the same color as the tabled card
+Wild Normal,"Yellow 0, Yellow Draw 2, Red 7, Blue Draw 2, Blue 6, Yellow 0, Blue 5",Yellow 0,Any card can be played on a Wild Normal
+Wild Normal,"Yellow 0, Yellow Draw 2, Red 7, Blue Draw 2, Blue 6, Yellow 0, Blue 5",Yellow Draw 2,Any card can be played on a Wild Normal
+Wild Normal,"Yellow 0, Yellow Draw 2, Red 7, Blue Draw 2, Blue 6, Yellow 0, Blue 5",Red 7,Any card can be played on a Wild Normal
+Wild Normal,"Yellow 0, Yellow Draw 2, Red 7, Blue Draw 2, Blue 6, Yellow 0, Blue 5",Blue Draw 2,Any card can be played on a Wild Normal
+Wild Normal,"Yellow 0, Yellow Draw 2, Red 7, Blue Draw 2, Blue 6, Yellow 0, Blue 5",Blue 6,Any card can be played on a Wild Normal
+Wild Normal,"Yellow 0, Yellow Draw 2, Red 7, Blue Draw 2, Blue 6, Yellow 0, Blue 5",Yellow 0,Any card can be played on a Wild Normal
+Wild Normal,"Yellow 0, Yellow Draw 2, Red 7, Blue Draw 2, Blue 6, Yellow 0, Blue 5",Blue 5,Any card can be played on a Wild Normal
+Yellow 3,"Red Draw 2, Blue 3, Blue Skip, Blue 1, Red 4, Blue Draw 2, Red 9",Blue 3,Wild cards can be played on any colour
+Blue 9,"Yellow 4, Yellow 4, Wild Draw 4, Blue Draw 2, Blue 7, Yellow Skip, Blue 7",Wild Draw 4,it is the same color and type as the tabled card
+Blue 9,"Yellow 4, Yellow 4, Wild Draw 4, Blue Draw 2, Blue 7, Yellow Skip, Blue 7",Blue Draw 2,it is the same color as the tabled card
+Blue 9,"Yellow 4, Yellow 4, Wild Draw 4, Blue Draw 2, Blue 7, Yellow Skip, Blue 7",Blue 7,it is the same color as the tabled card
+Blue 9,"Yellow 4, Yellow 4, Wild Draw 4, Blue Draw 2, Blue 7, Yellow Skip, Blue 7",Blue 7,it is the same color as the tabled card
+Yellow Draw 2,"Yellow Draw 2, Wild Normal, Green Skip, Red 3, Wild Normal, Red 9, Red Skip",Pick up 2 cards,You must pick up 2 cards when a Draw 2 is played
+Wild Draw 4,"Blue 7, Green Draw 2, Yellow 0, Blue 0, Red 2, Green 5, Yellow Draw 2",Pick up 4 cards,You have to pick up 4 cards when a Wild Draw 4 is played
+Yellow 5,"Blue 3, Yellow 6, Red 2, Green 2, Red 2, Blue 4, Yellow 3",Yellow 6,it is the same color as the tabled card
+Yellow 5,"Blue 3, Yellow 6, Red 2, Green 2, Red 2, Blue 4, Yellow 3",Yellow 3,it is the same color as the tabled card
+Blue 6,"Green 1, Yellow Skip, Blue Reverse, Red 5, Yellow 3, Blue 5, Red 6",Blue Reverse,it is the same color as the tabled card
+Blue 6,"Green 1, Yellow Skip, Blue Reverse, Red 5, Yellow 3, Blue 5, Red 6",Blue 5,it is the same color as the tabled card
+Blue 6,"Green 1, Yellow Skip, Blue Reverse, Red 5, Yellow 3, Blue 5, Red 6",Red 6,Wild cards can be played on any colour
+Wild Normal,"Red 3, Blue Skip, Wild Normal, Yellow 8, Green 9, Yellow 3, Green 4",Red 3,Any card can be played on a Wild Normal
+Wild Normal,"Red 3, Blue Skip, Wild Normal, Yellow 8, Green 9, Yellow 3, Green 4",Blue Skip,Any card can be played on a Wild Normal
+Wild Normal,"Red 3, Blue Skip, Wild Normal, Yellow 8, Green 9, Yellow 3, Green 4",Wild Normal,Any card can be played on a Wild Normal
+Wild Normal,"Red 3, Blue Skip, Wild Normal, Yellow 8, Green 9, Yellow 3, Green 4",Yellow 8,Any card can be played on a Wild Normal
+Wild Normal,"Red 3, Blue Skip, Wild Normal, Yellow 8, Green 9, Yellow 3, Green 4",Green 9,Any card can be played on a Wild Normal
+Wild Normal,"Red 3, Blue Skip, Wild Normal, Yellow 8, Green 9, Yellow 3, Green 4",Yellow 3,Any card can be played on a Wild Normal
+Wild Normal,"Red 3, Blue Skip, Wild Normal, Yellow 8, Green 9, Yellow 3, Green 4",Green 4,Any card can be played on a Wild Normal
+Green 4,"Red 3, Green 7, Wild Draw 4, Yellow 9, Green 2, Red 2, Blue Reverse",Green 7,it is the same color as the tabled card
+Green 4,"Red 3, Green 7, Wild Draw 4, Yellow 9, Green 2, Red 2, Blue Reverse",Wild Draw 4,it is the same color and type as the tabled card
+Green 4,"Red 3, Green 7, Wild Draw 4, Yellow 9, Green 2, Red 2, Blue Reverse",Green 2,it is the same color as the tabled card
+Red Skip,"Wild Normal, Green Draw 2, Yellow 7, Red Reverse, Red 3, Green 1, Green 0",Wild Normal,it is the same color and type as the tabled card
+Red Skip,"Wild Normal, Green Draw 2, Yellow 7, Red Reverse, Red 3, Green 1, Green 0",Red Reverse,it is the same color as the tabled card
+Red Skip,"Wild Normal, Green Draw 2, Yellow 7, Red Reverse, Red 3, Green 1, Green 0",Red 3,it is the same color as the tabled card
+Red 7,"Wild Normal, Yellow Skip, Green 1, Red Reverse, Blue Skip, Yellow 4, Green 4",Wild Normal,it is the same color and type as the tabled card
+Red 7,"Wild Normal, Yellow Skip, Green 1, Red Reverse, Blue Skip, Yellow 4, Green 4",Red Reverse,it is the same color as the tabled card
+Green 6,"Wild Draw 4, Wild Normal, Blue 3, Red 6, Red Reverse, Blue 2, Blue 3",Wild Draw 4,it is the same color and type as the tabled card
+Green 6,"Wild Draw 4, Wild Normal, Blue 3, Red 6, Red Reverse, Blue 2, Blue 3",Wild Normal,it is the same color and type as the tabled card
+Green 6,"Wild Draw 4, Wild Normal, Blue 3, Red 6, Red Reverse, Blue 2, Blue 3",Red 6,Wild cards can be played on any colour
+Red 5,"Green Draw 2, Yellow 4, Red Draw 2, Blue 6, Blue Skip, Red 3, Green 1",Red Draw 2,it is the same color as the tabled card
+Red 5,"Green Draw 2, Yellow 4, Red Draw 2, Blue 6, Blue Skip, Red 3, Green 1",Red 3,it is the same color as the tabled card
+Red Reverse,"Red 5, Red 2, Red 1, Yellow 0, Wild Normal, Red 5, Yellow 8",Red 5,it is the same color as the tabled card
+Red Reverse,"Red 5, Red 2, Red 1, Yellow 0, Wild Normal, Red 5, Yellow 8",Red 2,it is the same color as the tabled card
+Red Reverse,"Red 5, Red 2, Red 1, Yellow 0, Wild Normal, Red 5, Yellow 8",Red 1,it is the same color as the tabled card
+Red Reverse,"Red 5, Red 2, Red 1, Yellow 0, Wild Normal, Red 5, Yellow 8",Wild Normal,it is the same color and type as the tabled card
+Red Reverse,"Red 5, Red 2, Red 1, Yellow 0, Wild Normal, Red 5, Yellow 8",Red 5,it is the same color as the tabled card
+Red 4,"Blue Reverse, Green 8, Green 4, Wild Draw 4, Green 9, Green 8, Red Reverse",Green 4,Wild cards can be played on any colour
+Red 4,"Blue Reverse, Green 8, Green 4, Wild Draw 4, Green 9, Green 8, Red Reverse",Wild Draw 4,it is the same color and type as the tabled card
+Red 4,"Blue Reverse, Green 8, Green 4, Wild Draw 4, Green 9, Green 8, Red Reverse",Red Reverse,it is the same color as the tabled card
+Yellow 5,"Blue 9, Green 7, Yellow Skip, Yellow 8, Blue 8, Blue 7, Green 4",Yellow Skip,it is the same color as the tabled card
+Yellow 5,"Blue 9, Green 7, Yellow Skip, Yellow 8, Blue 8, Blue 7, Green 4",Yellow 8,it is the same color as the tabled card
+Yellow Reverse,"Green 4, Wild Normal, Blue 3, Blue Draw 2, Green Draw 2, Red 1, Blue Skip",Wild Normal,it is the same color and type as the tabled card
+Yellow Skip,"Green 2, Yellow 0, Yellow 3, Blue Draw 2, Red 2, Yellow 7, Red 2",Yellow 0,it is the same color as the tabled card
+Yellow Skip,"Green 2, Yellow 0, Yellow 3, Blue Draw 2, Red 2, Yellow 7, Red 2",Yellow 3,it is the same color as the tabled card
+Yellow Skip,"Green 2, Yellow 0, Yellow 3, Blue Draw 2, Red 2, Yellow 7, Red 2",Yellow 7,it is the same color as the tabled card
+Blue Draw 2,"Green 6, Red Skip, Red Draw 2, Red 1, Red 2, Red 8, Blue 8",Pick up 2 cards,You must pick up 2 cards when a Draw 2 is played
+Red 3,"Yellow 9, Green Reverse, Red Reverse, Green 8, Yellow 9, Yellow 1, Green Skip",Red Reverse,it is the same color as the tabled card
+Yellow 5,"Blue 5, Red 5, Yellow 7, Red 7, Blue 6, Blue 2, Yellow Reverse",Blue 5,Wild cards can be played on any colour
+Yellow 5,"Blue 5, Red 5, Yellow 7, Red 7, Blue 6, Blue 2, Yellow Reverse",Red 5,Wild cards can be played on any colour
+Yellow 5,"Blue 5, Red 5, Yellow 7, Red 7, Blue 6, Blue 2, Yellow Reverse",Yellow 7,it is the same color as the tabled card
+Yellow 5,"Blue 5, Red 5, Yellow 7, Red 7, Blue 6, Blue 2, Yellow Reverse",Yellow Reverse,it is the same color as the tabled card
+Red 5,"Yellow 6, Blue 2, Red 4, Blue 7, Red 1, Blue Skip, Green 2",Red 4,it is the same color as the tabled card
+Red 5,"Yellow 6, Blue 2, Red 4, Blue 7, Red 1, Blue Skip, Green 2",Red 1,it is the same color as the tabled card
+Yellow 3,"Red Skip, Green 9, Yellow 2, Wild Normal, Yellow Skip, Red 7, Yellow 0",Yellow 2,it is the same color as the tabled card
+Yellow 3,"Red Skip, Green 9, Yellow 2, Wild Normal, Yellow Skip, Red 7, Yellow 0",Wild Normal,it is the same color and type as the tabled card
+Yellow 3,"Red Skip, Green 9, Yellow 2, Wild Normal, Yellow Skip, Red 7, Yellow 0",Yellow Skip,it is the same color as the tabled card
+Yellow 3,"Red Skip, Green 9, Yellow 2, Wild Normal, Yellow Skip, Red 7, Yellow 0",Yellow 0,it is the same color as the tabled card
+Red Reverse,"Red 6, Green 3, Wild Normal, Green Skip, Wild Draw 4, Yellow Skip, Red 5",Red 6,it is the same color as the tabled card
+Red Reverse,"Red 6, Green 3, Wild Normal, Green Skip, Wild Draw 4, Yellow Skip, Red 5",Wild Normal,it is the same color and type as the tabled card
+Red Reverse,"Red 6, Green 3, Wild Normal, Green Skip, Wild Draw 4, Yellow Skip, Red 5",Wild Draw 4,it is the same color and type as the tabled card
+Red Reverse,"Red 6, Green 3, Wild Normal, Green Skip, Wild Draw 4, Yellow Skip, Red 5",Red 5,it is the same color as the tabled card
+Yellow 8,"Yellow Reverse, Yellow 6, Yellow 1, Green 0, Green 2, Blue 6, Green 3",Yellow Reverse,it is the same color as the tabled card
+Yellow 8,"Yellow Reverse, Yellow 6, Yellow 1, Green 0, Green 2, Blue 6, Green 3",Yellow 6,it is the same color as the tabled card
+Yellow 8,"Yellow Reverse, Yellow 6, Yellow 1, Green 0, Green 2, Blue 6, Green 3",Yellow 1,it is the same color as the tabled card
+Blue 9,"Blue 1, Green Reverse, Yellow Skip, Red 9, Red 4, Blue Draw 2, Wild Normal",Blue 1,it is the same color as the tabled card
+Blue 9,"Blue 1, Green Reverse, Yellow Skip, Red 9, Red 4, Blue Draw 2, Wild Normal",Red 9,Wild cards can be played on any colour
+Blue 9,"Blue 1, Green Reverse, Yellow Skip, Red 9, Red 4, Blue Draw 2, Wild Normal",Blue Draw 2,it is the same color as the tabled card
+Blue 9,"Blue 1, Green Reverse, Yellow Skip, Red 9, Red 4, Blue Draw 2, Wild Normal",Wild Normal,it is the same color and type as the tabled card
+Green 6,"Yellow 8, Green 5, Blue 9, Blue 3, Yellow 7, Red 7, Red 2",Green 5,it is the same color as the tabled card
+Green Draw 2,"Red 8, Blue 6, Blue 4, Wild Draw 4, Green 9, Red 1, Green Draw 2",Pick up 2 cards,You must pick up 2 cards when a Draw 2 is played
+Green 4,"Green 5, Red Skip, Yellow 6, Red Reverse, Green 4, Yellow Draw 2, Green 8",Green 5,it is the same color as the tabled card
+Green 4,"Green 5, Red Skip, Yellow 6, Red Reverse, Green 4, Yellow Draw 2, Green 8",Green 4,it is the same color as the tabled card
+Green 4,"Green 5, Red Skip, Yellow 6, Red Reverse, Green 4, Yellow Draw 2, Green 8",Green 8,it is the same color as the tabled card
+Green 2,"Green Skip, Green 5, Green 4, Blue 6, Yellow 9, Red 3, Blue Skip",Green Skip,it is the same color as the tabled card
+Green 2,"Green Skip, Green 5, Green 4, Blue 6, Yellow 9, Red 3, Blue Skip",Green 5,it is the same color as the tabled card
+Green 2,"Green Skip, Green 5, Green 4, Blue 6, Yellow 9, Red 3, Blue Skip",Green 4,it is the same color as the tabled card
+Green 4,"Green Reverse, Blue 6, Green 9, Yellow 5, Yellow Reverse, Green 8, Red 3",Green Reverse,it is the same color as the tabled card
+Green 4,"Green Reverse, Blue 6, Green 9, Yellow 5, Yellow Reverse, Green 8, Red 3",Green 9,it is the same color as the tabled card
+Green 4,"Green Reverse, Blue 6, Green 9, Yellow 5, Yellow Reverse, Green 8, Red 3",Green 8,it is the same color as the tabled card
+Green Reverse,"Blue 5, Green 6, Blue 4, Yellow 4, Red 2, Blue 7, Green Skip",Green 6,it is the same color as the tabled card
+Green Reverse,"Blue 5, Green 6, Blue 4, Yellow 4, Red 2, Blue 7, Green Skip",Green Skip,it is the same color as the tabled card
+Red 3,"Blue 3, Wild Normal, Wild Normal, Yellow Draw 2, Yellow Reverse, Blue Skip, Yellow 1",Blue 3,Wild cards can be played on any colour
+Red 3,"Blue 3, Wild Normal, Wild Normal, Yellow Draw 2, Yellow Reverse, Blue Skip, Yellow 1",Wild Normal,it is the same color and type as the tabled card
+Red 3,"Blue 3, Wild Normal, Wild Normal, Yellow Draw 2, Yellow Reverse, Blue Skip, Yellow 1",Wild Normal,it is the same color and type as the tabled card
+Blue 3,"Blue 3, Blue 2, Blue 9, Wild Normal, Green 5, Wild Draw 4, Blue 4",Blue 3,it is the same color as the tabled card
+Blue 3,"Blue 3, Blue 2, Blue 9, Wild Normal, Green 5, Wild Draw 4, Blue 4",Blue 2,it is the same color as the tabled card
+Blue 3,"Blue 3, Blue 2, Blue 9, Wild Normal, Green 5, Wild Draw 4, Blue 4",Blue 9,it is the same color as the tabled card
+Blue 3,"Blue 3, Blue 2, Blue 9, Wild Normal, Green 5, Wild Draw 4, Blue 4",Wild Normal,it is the same color and type as the tabled card
+Blue 3,"Blue 3, Blue 2, Blue 9, Wild Normal, Green 5, Wild Draw 4, Blue 4",Wild Draw 4,it is the same color and type as the tabled card
+Blue 3,"Blue 3, Blue 2, Blue 9, Wild Normal, Green 5, Wild Draw 4, Blue 4",Blue 4,it is the same color as the tabled card
+Red 7,"Green Draw 2, Green 2, Yellow Reverse, Red 0, Yellow 7, Yellow Reverse, Blue 2",Red 0,it is the same color as the tabled card
+Red 7,"Green Draw 2, Green 2, Yellow Reverse, Red 0, Yellow 7, Yellow Reverse, Blue 2",Yellow 7,Wild cards can be played on any colour
+Blue 7,"Wild Normal, Green 6, Green 6, Blue 2, Yellow 1, Blue 1, Yellow Skip",Wild Normal,it is the same color and type as the tabled card
+Blue 7,"Wild Normal, Green 6, Green 6, Blue 2, Yellow 1, Blue 1, Yellow Skip",Blue 2,it is the same color as the tabled card
+Blue 7,"Wild Normal, Green 6, Green 6, Blue 2, Yellow 1, Blue 1, Yellow Skip",Blue 1,it is the same color as the tabled card
+Red 2,"Green 2, Wild Normal, Green Draw 2, Red Draw 2, Yellow 0, Blue 7, Wild Draw 4",Green 2,Wild cards can be played on any colour
+Red 2,"Green 2, Wild Normal, Green Draw 2, Red Draw 2, Yellow 0, Blue 7, Wild Draw 4",Wild Normal,it is the same color and type as the tabled card
+Red 2,"Green 2, Wild Normal, Green Draw 2, Red Draw 2, Yellow 0, Blue 7, Wild Draw 4",Red Draw 2,it is the same color as the tabled card
+Red 2,"Green 2, Wild Normal, Green Draw 2, Red Draw 2, Yellow 0, Blue 7, Wild Draw 4",Wild Draw 4,it is the same color and type as the tabled card
+Blue 0,"Yellow Skip, Red Draw 2, Red 5, Blue 1, Yellow Draw 2, Blue 6, Yellow 8",Blue 1,it is the same color as the tabled card
+Blue 0,"Yellow Skip, Red Draw 2, Red 5, Blue 1, Yellow Draw 2, Blue 6, Yellow 8",Blue 6,it is the same color as the tabled card
+Yellow 8,"Green Skip, Red 1, Blue 2, Wild Normal, Blue 6, Yellow 5, Yellow 1",Wild Normal,it is the same color and type as the tabled card
+Yellow 8,"Green Skip, Red 1, Blue 2, Wild Normal, Blue 6, Yellow 5, Yellow 1",Yellow 5,it is the same color as the tabled card
+Yellow 8,"Green Skip, Red 1, Blue 2, Wild Normal, Blue 6, Yellow 5, Yellow 1",Yellow 1,it is the same color as the tabled card
+Red Skip,"Blue 9, Wild Draw 4, Yellow 8, Green 6, Red 1, Red Draw 2, Red 8",Wild Draw 4,it is the same color and type as the tabled card
+Red Skip,"Blue 9, Wild Draw 4, Yellow 8, Green 6, Red 1, Red Draw 2, Red 8",Red 1,it is the same color as the tabled card
+Red Skip,"Blue 9, Wild Draw 4, Yellow 8, Green 6, Red 1, Red Draw 2, Red 8",Red Draw 2,it is the same color as the tabled card
+Red Skip,"Blue 9, Wild Draw 4, Yellow 8, Green 6, Red 1, Red Draw 2, Red 8",Red 8,it is the same color as the tabled card
+Green 4,"Red 4, Red 0, Yellow 2, Blue 3, Yellow 5, Yellow 3, Wild Normal",Red 4,Wild cards can be played on any colour
+Green 4,"Red 4, Red 0, Yellow 2, Blue 3, Yellow 5, Yellow 3, Wild Normal",Wild Normal,it is the same color and type as the tabled card
+Green Reverse,"Green 5, Yellow Draw 2, Green 7, Wild Normal, Green 1, Red 4, Red 2",Green 5,it is the same color as the tabled card
+Green Reverse,"Green 5, Yellow Draw 2, Green 7, Wild Normal, Green 1, Red 4, Red 2",Green 7,it is the same color as the tabled card
+Green Reverse,"Green 5, Yellow Draw 2, Green 7, Wild Normal, Green 1, Red 4, Red 2",Wild Normal,it is the same color and type as the tabled card
+Green Reverse,"Green 5, Yellow Draw 2, Green 7, Wild Normal, Green 1, Red 4, Red 2",Green 1,it is the same color as the tabled card
+Green 1,"Yellow 7, Red 4, Blue 2, Red 8, Wild Draw 4, Green 2, Red 8",Wild Draw 4,it is the same color and type as the tabled card
+Green 1,"Yellow 7, Red 4, Blue 2, Red 8, Wild Draw 4, Green 2, Red 8",Green 2,it is the same color as the tabled card
+Blue Reverse,"Green Draw 2, Red Skip, Blue 1, Blue 3, Blue 1, Blue 7, Green 8",Blue 1,it is the same color as the tabled card
+Blue Reverse,"Green Draw 2, Red Skip, Blue 1, Blue 3, Blue 1, Blue 7, Green 8",Blue 3,it is the same color as the tabled card
+Blue Reverse,"Green Draw 2, Red Skip, Blue 1, Blue 3, Blue 1, Blue 7, Green 8",Blue 1,it is the same color as the tabled card
+Blue Reverse,"Green Draw 2, Red Skip, Blue 1, Blue 3, Blue 1, Blue 7, Green 8",Blue 7,it is the same color as the tabled card
+Green 5,"Red Reverse, Red Draw 2, Blue 4, Green 6, Green 6, Green Reverse, Yellow 0",Green 6,it is the same color as the tabled card
+Green 5,"Red Reverse, Red Draw 2, Blue 4, Green 6, Green 6, Green Reverse, Yellow 0",Green 6,it is the same color as the tabled card
+Green 5,"Red Reverse, Red Draw 2, Blue 4, Green 6, Green 6, Green Reverse, Yellow 0",Green Reverse,it is the same color as the tabled card
+Green 3,"Wild Normal, Yellow 5, Green 4, Yellow Reverse, Yellow 3, Red 0, Yellow 7",Wild Normal,it is the same color and type as the tabled card
+Green 3,"Wild Normal, Yellow 5, Green 4, Yellow Reverse, Yellow 3, Red 0, Yellow 7",Green 4,it is the same color as the tabled card
+Green 3,"Wild Normal, Yellow 5, Green 4, Yellow Reverse, Yellow 3, Red 0, Yellow 7",Yellow 3,Wild cards can be played on any colour
+Blue 3,"Green 2, Yellow 8, Red 5, Blue Skip, Yellow 2, Wild Normal, Yellow 0",Blue Skip,it is the same color as the tabled card
+Blue 3,"Green 2, Yellow 8, Red 5, Blue Skip, Yellow 2, Wild Normal, Yellow 0",Wild Normal,it is the same color and type as the tabled card
+Red 1,"Wild Draw 4, Red 6, Yellow 8, Blue Reverse, Red 6, Blue 4, Yellow 0",Wild Draw 4,it is the same color and type as the tabled card
+Red 1,"Wild Draw 4, Red 6, Yellow 8, Blue Reverse, Red 6, Blue 4, Yellow 0",Red 6,it is the same color as the tabled card
+Red 1,"Wild Draw 4, Red 6, Yellow 8, Blue Reverse, Red 6, Blue 4, Yellow 0",Red 6,it is the same color as the tabled card
+Blue 3,"Green Reverse, Red Skip, Red 6, Yellow Skip, Red 5, Blue 5, Blue 5",Blue 5,it is the same color as the tabled card
+Blue 3,"Green Reverse, Red Skip, Red 6, Yellow Skip, Red 5, Blue 5, Blue 5",Blue 5,it is the same color as the tabled card
+Yellow 8,"Green 6, Blue 6, Red 2, Red Skip, Green 0, Blue 7, Wild Normal",Wild Normal,it is the same color and type as the tabled card
+Green 6,"Yellow Skip, Green 6, Red 5, Wild Normal, Yellow 8, Green 7, Yellow 9",Green 6,it is the same color as the tabled card
+Green 6,"Yellow Skip, Green 6, Red 5, Wild Normal, Yellow 8, Green 7, Yellow 9",Wild Normal,it is the same color and type as the tabled card
+Green 6,"Yellow Skip, Green 6, Red 5, Wild Normal, Yellow 8, Green 7, Yellow 9",Green 7,it is the same color as the tabled card
+Red 9,"Green Reverse, Wild Draw 4, Red 1, Wild Normal, Green 9, Red Skip, Yellow 3",Wild Draw 4,it is the same color and type as the tabled card
+Red 9,"Green Reverse, Wild Draw 4, Red 1, Wild Normal, Green 9, Red Skip, Yellow 3",Red 1,it is the same color as the tabled card
+Red 9,"Green Reverse, Wild Draw 4, Red 1, Wild Normal, Green 9, Red Skip, Yellow 3",Wild Normal,it is the same color and type as the tabled card
+Red 9,"Green Reverse, Wild Draw 4, Red 1, Wild Normal, Green 9, Red Skip, Yellow 3",Green 9,Wild cards can be played on any colour
+Red 9,"Green Reverse, Wild Draw 4, Red 1, Wild Normal, Green 9, Red Skip, Yellow 3",Red Skip,it is the same color as the tabled card
+Yellow 3,"Green 4, Green Reverse, Red 9, Red 4, Green Draw 2, Red 9, Red 6",Pick up 1 card,If there are no allowed moves you must pick up
+Yellow Reverse,"Blue Reverse, Yellow 5, Green 7, Green 3, Yellow 5, Blue 2, Red 6",Blue Reverse,Wild cards can be played on any colour
+Yellow Reverse,"Blue Reverse, Yellow 5, Green 7, Green 3, Yellow 5, Blue 2, Red 6",Yellow 5,it is the same color as the tabled card
+Yellow Reverse,"Blue Reverse, Yellow 5, Green 7, Green 3, Yellow 5, Blue 2, Red 6",Yellow 5,it is the same color as the tabled card
+Green 2,"Red 5, Yellow 1, Yellow 2, Blue 3, Red Reverse, Red 7, Red Reverse",Yellow 2,Wild cards can be played on any colour
+Yellow 6,"Red 1, Blue 3, Blue 3, Green 6, Yellow 2, Green Draw 2, Blue 2",Green 6,Wild cards can be played on any colour
+Yellow 6,"Red 1, Blue 3, Blue 3, Green 6, Yellow 2, Green Draw 2, Blue 2",Yellow 2,it is the same color as the tabled card
+Wild Normal,"Wild Normal, Yellow 1, Blue 2, Wild Normal, Red 3, Red 4, Red 7",Wild Normal,Any card can be played on a Wild Normal
+Wild Normal,"Wild Normal, Yellow 1, Blue 2, Wild Normal, Red 3, Red 4, Red 7",Yellow 1,Any card can be played on a Wild Normal
+Wild Normal,"Wild Normal, Yellow 1, Blue 2, Wild Normal, Red 3, Red 4, Red 7",Blue 2,Any card can be played on a Wild Normal
+Wild Normal,"Wild Normal, Yellow 1, Blue 2, Wild Normal, Red 3, Red 4, Red 7",Wild Normal,Any card can be played on a Wild Normal
+Wild Normal,"Wild Normal, Yellow 1, Blue 2, Wild Normal, Red 3, Red 4, Red 7",Red 3,Any card can be played on a Wild Normal
+Wild Normal,"Wild Normal, Yellow 1, Blue 2, Wild Normal, Red 3, Red 4, Red 7",Red 4,Any card can be played on a Wild Normal
+Wild Normal,"Wild Normal, Yellow 1, Blue 2, Wild Normal, Red 3, Red 4, Red 7",Red 7,Any card can be played on a Wild Normal
+Yellow 2,"Blue 8, Green Skip, Green 1, Yellow Reverse, Yellow 0, Yellow 1, Wild Normal",Yellow Reverse,it is the same color as the tabled card
+Yellow 2,"Blue 8, Green Skip, Green 1, Yellow Reverse, Yellow 0, Yellow 1, Wild Normal",Yellow 0,it is the same color as the tabled card
+Yellow 2,"Blue 8, Green Skip, Green 1, Yellow Reverse, Yellow 0, Yellow 1, Wild Normal",Yellow 1,it is the same color as the tabled card
+Yellow 2,"Blue 8, Green Skip, Green 1, Yellow Reverse, Yellow 0, Yellow 1, Wild Normal",Wild Normal,it is the same color and type as the tabled card
+Green 1,"Red 9, Red 8, Red Reverse, Yellow 5, Yellow Skip, Red 7, Wild Normal",Wild Normal,it is the same color and type as the tabled card
+Green 8,"Yellow 2, Blue 3, Red Draw 2, Wild Normal, Blue 7, Yellow 2, Wild Normal",Wild Normal,it is the same color and type as the tabled card
+Green 8,"Yellow 2, Blue 3, Red Draw 2, Wild Normal, Blue 7, Yellow 2, Wild Normal",Wild Normal,it is the same color and type as the tabled card
+Yellow 3,"Yellow 4, Green 0, Wild Draw 4, Yellow 5, Yellow 0, Wild Draw 4, Red 1",Yellow 4,it is the same color as the tabled card
+Yellow 3,"Yellow 4, Green 0, Wild Draw 4, Yellow 5, Yellow 0, Wild Draw 4, Red 1",Wild Draw 4,it is the same color and type as the tabled card
+Yellow 3,"Yellow 4, Green 0, Wild Draw 4, Yellow 5, Yellow 0, Wild Draw 4, Red 1",Yellow 5,it is the same color as the tabled card
+Yellow 3,"Yellow 4, Green 0, Wild Draw 4, Yellow 5, Yellow 0, Wild Draw 4, Red 1",Yellow 0,it is the same color as the tabled card
+Yellow 3,"Yellow 4, Green 0, Wild Draw 4, Yellow 5, Yellow 0, Wild Draw 4, Red 1",Wild Draw 4,it is the same color and type as the tabled card
+Yellow 2,"Blue 3, Wild Draw 4, Yellow 3, Green 2, Yellow 7, Yellow 9, Yellow Draw 2",Wild Draw 4,it is the same color and type as the tabled card
+Yellow 2,"Blue 3, Wild Draw 4, Yellow 3, Green 2, Yellow 7, Yellow 9, Yellow Draw 2",Yellow 3,it is the same color as the tabled card
+Yellow 2,"Blue 3, Wild Draw 4, Yellow 3, Green 2, Yellow 7, Yellow 9, Yellow Draw 2",Green 2,Wild cards can be played on any colour
+Yellow 2,"Blue 3, Wild Draw 4, Yellow 3, Green 2, Yellow 7, Yellow 9, Yellow Draw 2",Yellow 7,it is the same color as the tabled card
+Yellow 2,"Blue 3, Wild Draw 4, Yellow 3, Green 2, Yellow 7, Yellow 9, Yellow Draw 2",Yellow 9,it is the same color as the tabled card
+Yellow 2,"Blue 3, Wild Draw 4, Yellow 3, Green 2, Yellow 7, Yellow 9, Yellow Draw 2",Yellow Draw 2,it is the same color as the tabled card
+Red 1,"Green 3, Green 4, Red 3, Yellow 9, Red 9, Yellow Draw 2, Wild Draw 4",Red 3,it is the same color as the tabled card
+Red 1,"Green 3, Green 4, Red 3, Yellow 9, Red 9, Yellow Draw 2, Wild Draw 4",Red 9,it is the same color as the tabled card
+Red 1,"Green 3, Green 4, Red 3, Yellow 9, Red 9, Yellow Draw 2, Wild Draw 4",Wild Draw 4,it is the same color and type as the tabled card
+Red Draw 2,"Blue 0, Red 0, Green 7, Green 5, Yellow 6, Green 3, Wild Normal",Pick up 2 cards,You must pick up 2 cards when a Draw 2 is played
+Yellow 1,"Green 8, Yellow Skip, Yellow 7, Green 1, Blue 5, Wild Draw 4, Wild Normal",Yellow Skip,it is the same color as the tabled card
+Yellow 1,"Green 8, Yellow Skip, Yellow 7, Green 1, Blue 5, Wild Draw 4, Wild Normal",Yellow 7,it is the same color as the tabled card
+Yellow 1,"Green 8, Yellow Skip, Yellow 7, Green 1, Blue 5, Wild Draw 4, Wild Normal",Green 1,Wild cards can be played on any colour
+Yellow 1,"Green 8, Yellow Skip, Yellow 7, Green 1, Blue 5, Wild Draw 4, Wild Normal",Wild Draw 4,it is the same color and type as the tabled card
+Yellow 1,"Green 8, Yellow Skip, Yellow 7, Green 1, Blue 5, Wild Draw 4, Wild Normal",Wild Normal,it is the same color and type as the tabled card
+Red 3,"Green 2, Blue 1, Blue 5, Green 4, Yellow 9, Yellow Reverse, Red Draw 2",Red Draw 2,it is the same color as the tabled card
+Green Draw 2,"Red 4, Red Reverse, Yellow 4, Red 5, Yellow 3, Red 9, Blue 2",Pick up 2 cards,You must pick up 2 cards when a Draw 2 is played
+Yellow 7,"Red 8, Blue 7, Green 8, Yellow 9, Red Skip, Yellow 1, Yellow Draw 2",Blue 7,Wild cards can be played on any colour
+Yellow 7,"Red 8, Blue 7, Green 8, Yellow 9, Red Skip, Yellow 1, Yellow Draw 2",Yellow 9,it is the same color as the tabled card
+Yellow 7,"Red 8, Blue 7, Green 8, Yellow 9, Red Skip, Yellow 1, Yellow Draw 2",Yellow 1,it is the same color as the tabled card
+Yellow 7,"Red 8, Blue 7, Green 8, Yellow 9, Red Skip, Yellow 1, Yellow Draw 2",Yellow Draw 2,it is the same color as the tabled card
+Yellow Draw 2,"Yellow 9, Green Draw 2, Blue 9, Green 8, Green Skip, Red 9, Red 8",Pick up 2 cards,You must pick up 2 cards when a Draw 2 is played
+Yellow 4,"Yellow 9, Wild Draw 4, Blue 7, Yellow 1, Red 4, Red 8, Yellow 9",Yellow 9,it is the same color as the tabled card
+Yellow 4,"Yellow 9, Wild Draw 4, Blue 7, Yellow 1, Red 4, Red 8, Yellow 9",Wild Draw 4,it is the same color and type as the tabled card
+Yellow 4,"Yellow 9, Wild Draw 4, Blue 7, Yellow 1, Red 4, Red 8, Yellow 9",Yellow 1,it is the same color as the tabled card
+Yellow 4,"Yellow 9, Wild Draw 4, Blue 7, Yellow 1, Red 4, Red 8, Yellow 9",Red 4,Wild cards can be played on any colour
+Yellow 4,"Yellow 9, Wild Draw 4, Blue 7, Yellow 1, Red 4, Red 8, Yellow 9",Yellow 9,it is the same color as the tabled card
+Red 2,"Yellow 4, Wild Draw 4, Red 2, Yellow 5, Green 3, Blue 3, Wild Normal",Wild Draw 4,it is the same color and type as the tabled card
+Red 2,"Yellow 4, Wild Draw 4, Red 2, Yellow 5, Green 3, Blue 3, Wild Normal",Red 2,it is the same color as the tabled card
+Red 2,"Yellow 4, Wild Draw 4, Red 2, Yellow 5, Green 3, Blue 3, Wild Normal",Wild Normal,it is the same color and type as the tabled card
+Blue Reverse,"Blue 3, Yellow 3, Red 6, Yellow Skip, Blue 7, Green 2, Blue Skip",Blue 3,it is the same color as the tabled card
+Blue Reverse,"Blue 3, Yellow 3, Red 6, Yellow Skip, Blue 7, Green 2, Blue Skip",Blue 7,it is the same color as the tabled card
+Blue Reverse,"Blue 3, Yellow 3, Red 6, Yellow Skip, Blue 7, Green 2, Blue Skip",Blue Skip,it is the same color as the tabled card
+Yellow 8,"Yellow 5, Yellow 5, Yellow Skip, Red 9, Green Skip, Blue Draw 2, Green Skip",Yellow 5,it is the same color as the tabled card
+Yellow 8,"Yellow 5, Yellow 5, Yellow Skip, Red 9, Green Skip, Blue Draw 2, Green Skip",Yellow 5,it is the same color as the tabled card
+Yellow 8,"Yellow 5, Yellow 5, Yellow Skip, Red 9, Green Skip, Blue Draw 2, Green Skip",Yellow Skip,it is the same color as the tabled card
+Wild Draw 4,"Green 5, Wild Draw 4, Green 2, Red Draw 2, Green 4, Green 2, Blue Reverse",Pick up 4 cards,You have to pick up 4 cards when a Wild Draw 4 is played
+Blue 2,"Green 8, Yellow Reverse, Yellow 8, Blue 9, Yellow Reverse, Green Reverse, Red 8",Blue 9,it is the same color as the tabled card
+Green Draw 2,"Wild Draw 4, Red 6, Green 3, Red 5, Red Skip, Wild Normal, Blue 3",Pick up 2 cards,You must pick up 2 cards when a Draw 2 is played
+Yellow Skip,"Blue 2, Green 4, Red Skip, Red Reverse, Blue Skip, Wild Normal, Blue 2",Red Skip,Wild cards can be played on any colour
+Yellow Skip,"Blue 2, Green 4, Red Skip, Red Reverse, Blue Skip, Wild Normal, Blue 2",Blue Skip,Wild cards can be played on any colour
+Yellow Skip,"Blue 2, Green 4, Red Skip, Red Reverse, Blue Skip, Wild Normal, Blue 2",Wild Normal,it is the same color and type as the tabled card
+Red Skip,"Red 7, Blue Reverse, Green 0, Green Reverse, Blue Draw 2, Red 4, Red Skip",Red 7,it is the same color as the tabled card
+Red Skip,"Red 7, Blue Reverse, Green 0, Green Reverse, Blue Draw 2, Red 4, Red Skip",Red 4,it is the same color as the tabled card
+Red Skip,"Red 7, Blue Reverse, Green 0, Green Reverse, Blue Draw 2, Red 4, Red Skip",Red Skip,it is the same color as the tabled card
+Blue Reverse,"Yellow 6, Green 8, Yellow 3, Red 3, Green 7, Wild Normal, Red 6",Wild Normal,it is the same color and type as the tabled card
+Yellow 9,"Yellow Draw 2, Yellow Skip, Red Draw 2, Red 3, Yellow 9, Wild Draw 4, Green 4",Yellow Draw 2,it is the same color as the tabled card
+Yellow 9,"Yellow Draw 2, Yellow Skip, Red Draw 2, Red 3, Yellow 9, Wild Draw 4, Green 4",Yellow Skip,it is the same color as the tabled card
+Yellow 9,"Yellow Draw 2, Yellow Skip, Red Draw 2, Red 3, Yellow 9, Wild Draw 4, Green 4",Yellow 9,it is the same color as the tabled card
+Yellow 9,"Yellow Draw 2, Yellow Skip, Red Draw 2, Red 3, Yellow 9, Wild Draw 4, Green 4",Wild Draw 4,it is the same color and type as the tabled card
+Yellow 8,"Yellow 8, Red Skip, Red 4, Blue 3, Green 8, Red 4, Red 8",Yellow 8,it is the same color as the tabled card
+Yellow 8,"Yellow 8, Red Skip, Red 4, Blue 3, Green 8, Red 4, Red 8",Green 8,Wild cards can be played on any colour
+Yellow 8,"Yellow 8, Red Skip, Red 4, Blue 3, Green 8, Red 4, Red 8",Red 8,Wild cards can be played on any colour
+Green 1,"Yellow Draw 2, Blue 8, Wild Draw 4, Blue 3, Yellow 0, Green 5, Green 6",Wild Draw 4,it is the same color and type as the tabled card
+Green 1,"Yellow Draw 2, Blue 8, Wild Draw 4, Blue 3, Yellow 0, Green 5, Green 6",Green 5,it is the same color as the tabled card
+Green 1,"Yellow Draw 2, Blue 8, Wild Draw 4, Blue 3, Yellow 0, Green 5, Green 6",Green 6,it is the same color as the tabled card
+Yellow 8,"Green 9, Yellow 5, Yellow 9, Red 3, Green 5, Green 6, Green 5",Yellow 5,it is the same color as the tabled card
+Yellow 8,"Green 9, Yellow 5, Yellow 9, Red 3, Green 5, Green 6, Green 5",Yellow 9,it is the same color as the tabled card
+Blue Skip,"Blue 7, Red 7, Yellow 0, Yellow 8, Yellow 1, Blue Draw 2, Blue 0",Blue 7,it is the same color as the tabled card
+Blue Skip,"Blue 7, Red 7, Yellow 0, Yellow 8, Yellow 1, Blue Draw 2, Blue 0",Blue Draw 2,it is the same color as the tabled card
+Blue Skip,"Blue 7, Red 7, Yellow 0, Yellow 8, Yellow 1, Blue Draw 2, Blue 0",Blue 0,it is the same color as the tabled card
+Wild Normal,"Blue Draw 2, Blue 0, Green 6, Blue 4, Blue 7, Yellow 9, Green 7",Blue Draw 2,Any card can be played on a Wild Normal
+Wild Normal,"Blue Draw 2, Blue 0, Green 6, Blue 4, Blue 7, Yellow 9, Green 7",Blue 0,Any card can be played on a Wild Normal
+Wild Normal,"Blue Draw 2, Blue 0, Green 6, Blue 4, Blue 7, Yellow 9, Green 7",Green 6,Any card can be played on a Wild Normal
+Wild Normal,"Blue Draw 2, Blue 0, Green 6, Blue 4, Blue 7, Yellow 9, Green 7",Blue 4,Any card can be played on a Wild Normal
+Wild Normal,"Blue Draw 2, Blue 0, Green 6, Blue 4, Blue 7, Yellow 9, Green 7",Blue 7,Any card can be played on a Wild Normal
+Wild Normal,"Blue Draw 2, Blue 0, Green 6, Blue 4, Blue 7, Yellow 9, Green 7",Yellow 9,Any card can be played on a Wild Normal
+Wild Normal,"Blue Draw 2, Blue 0, Green 6, Blue 4, Blue 7, Yellow 9, Green 7",Green 7,Any card can be played on a Wild Normal
+Yellow 7,"Wild Normal, Yellow 6, Blue Reverse, Red Reverse, Green 4, Wild Draw 4, Yellow 9",Wild Normal,it is the same color and type as the tabled card
+Yellow 7,"Wild Normal, Yellow 6, Blue Reverse, Red Reverse, Green 4, Wild Draw 4, Yellow 9",Yellow 6,it is the same color as the tabled card
+Yellow 7,"Wild Normal, Yellow 6, Blue Reverse, Red Reverse, Green 4, Wild Draw 4, Yellow 9",Wild Draw 4,it is the same color and type as the tabled card
+Yellow 7,"Wild Normal, Yellow 6, Blue Reverse, Red Reverse, Green 4, Wild Draw 4, Yellow 9",Yellow 9,it is the same color as the tabled card
+Blue 3,"Green 2, Green 2, Blue 5, Blue 0, Yellow 1, Wild Normal, Blue Reverse",Blue 5,it is the same color as the tabled card
+Blue 3,"Green 2, Green 2, Blue 5, Blue 0, Yellow 1, Wild Normal, Blue Reverse",Blue 0,it is the same color as the tabled card
+Blue 3,"Green 2, Green 2, Blue 5, Blue 0, Yellow 1, Wild Normal, Blue Reverse",Wild Normal,it is the same color and type as the tabled card
+Blue 3,"Green 2, Green 2, Blue 5, Blue 0, Yellow 1, Wild Normal, Blue Reverse",Blue Reverse,it is the same color as the tabled card
+Yellow 7,"Green Draw 2, Yellow Skip, Yellow 2, Yellow 5, Green 8, Wild Draw 4, Blue 9",Yellow Skip,it is the same color as the tabled card
+Yellow 7,"Green Draw 2, Yellow Skip, Yellow 2, Yellow 5, Green 8, Wild Draw 4, Blue 9",Yellow 2,it is the same color as the tabled card
+Yellow 7,"Green Draw 2, Yellow Skip, Yellow 2, Yellow 5, Green 8, Wild Draw 4, Blue 9",Yellow 5,it is the same color as the tabled card
+Yellow 7,"Green Draw 2, Yellow Skip, Yellow 2, Yellow 5, Green 8, Wild Draw 4, Blue 9",Wild Draw 4,it is the same color and type as the tabled card
