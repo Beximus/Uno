@@ -1,5 +1,6 @@
 import random
 import csv
+import numpy as np
 rules = ['it is the same color as the tabled card','it is the same type as the tabled card', 'Wild cards can be played on any colour','If there are no allowed moves you must pick up','it is the same color and type as the tabled card','Any card can be played on a Wild Normal','You have to pick up 4 cards when a Wild Draw 4 is played','You must pick up 2 cards when a Draw 2 is played']
 colorarray =['Red','Green','Blue','Yellow']
 
@@ -125,5 +126,52 @@ def outputter():
         for i in range(100):
             newlines = playmaker()
             writer.writerows(newlines)
-outputter()
+
+def shuffler(array):
+    random.shuffle(array)
+    return array
+
+
+
+def multiStagePlaymaker(nTurns):
+    iterator = nTurns
+    currentDeck = generateCards()
+    print(currentDeck)
+    print(len(currentDeck))
+    currentDeck = shuffler(currentDeck)
+    currentHand = []
+    currentTurn = 0
+    currentTable = []
+    for currentTurn in range(nTurns):
+        if currentTurn ==0:
+            numbercards = 0
+            for numbercards in range(7):
+                currentHand.append(currentDeck[0])
+                currentDeck.pop(0)
+            currentTable.append(currentDeck[0])
+            currentDeck.pop(0)
+            print("your hand is: \n")
+            print(currentHand)
+            print("table is: \n")
+            print(currentTable)
+            print(len(currentDeck))
+            print("played")
+            number = random.randint(0,6)
+            print(currentHand[number])
+            currentTable = [currentHand[number]]
+            currentHand.pop(number)
+        else:
+            print("weeWoo")
+            if len(currentHand)<7:
+                currentHand.append(currentDeck[0])
+                currentDeck.pop(0)
+                print(currentTable)
+                print(currentHand)
+                print(len(currentDeck))
+
+
+        
+
+multiStagePlaymaker(3)
+# outputter()
 
