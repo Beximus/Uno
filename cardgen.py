@@ -135,10 +135,9 @@ def shuffler(array):
 
 def multiStagePlaymaker(nTurns):
     iterator = nTurns
-    currentDeck = generateCards()
+    currentDeck = shuffler(generateCards())
     print(currentDeck)
     print(len(currentDeck))
-    currentDeck = shuffler(currentDeck)
     currentHand = []
     currentTurn = 0
     currentTable = []
