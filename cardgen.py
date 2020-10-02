@@ -117,13 +117,13 @@ def playmaker():
 # WRITES CSV FILE AND RUNS AS MANY LINES AS WANTED CURRENTLY SET TO 1000
 
 def outputter():
-    with open('example.csv','w',newline='') as file:
+    with open('potato.csv','w',newline='') as file:
         writer = csv.writer(file)
         i=0
         startline = ["Card on the Table:","Cards in Hand:","Possible Move:","Applicable rule:"]
         writer.writerow(startline)
         # HOW MANY PLAYS TO GENERATE (ANYWHERE BETWEEN 1 AND 7 OPTIONS PER PLAY)
-        for i in range(100):
+        for i in range(5000):
             newlines = playmaker()
             writer.writerows(newlines)
 
@@ -131,6 +131,7 @@ def shuffler(array):
     random.shuffle(array)
     return array
 
+# WORK IN PROGRESS DOWN HERE
 
 
 def multiStagePlaymaker(nTurns):
@@ -168,9 +169,40 @@ def multiStagePlaymaker(nTurns):
                 print(currentHand)
                 print(len(currentDeck))
 
+def playcalculator(tableArray,handArray):
+    hand = handArray
+    table = tableArray
+    playoptions =[]
+    playrules = []
+    outputRow =[]
+    output =[]
+    if table[0] == 'Wild' and table[1] == 'Normal':
+        for cards in hand:
+            playoptions.append(cards)
+            playrules.append(rules[5])
+    elif table[0] == 'Wild' and table[1] == 'Draw 4':
+        option = ['Pick up','4 cards']
+        playoptions.append(option)
+        playrules.append(rules[6])
+    elif table[1] == 'Draw 2':
+        option = ['Pick up','2 cards']
+        playoptions.append(option)
+        playrules.append(rules[7])
+    else:
+        for card in hand:
+            if card[0] == table[0]:
+                playoptions.append(card)
+                playrules.append(rules[0])
+            elif card[1]==table[1]:
+                playoptions.append(card)
+                playrules.append(rules[2])
+            elif card[0]=='Wild':
+                playoptions.append(card)
+                playrules.append(rules[2])
 
-        
 
-multiStagePlaymaker(3)
-# outputter()
+# WORK IN PROGRESS UP HERE
+
+# multiStagePlaymaker(3)
+outputter()
 
