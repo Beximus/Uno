@@ -4,7 +4,7 @@ import numpy as np
 rules = ['it is the same color as the tabled card','it is the same type as the tabled card', 'Wild cards can be played on any colour','If there are no allowed moves you must pick up','it is the same color and type as the tabled card','Any card can be played on a Wild Normal','You have to pick up 4 cards when a Wild Draw 4 is played','You must pick up 2 cards when a Draw 2 is played']
 colorarray =['Red','Green','Blue','Yellow']
 
-numberrun = 1
+numberrun = 10000
 
 # GENERATES DECK OF CARDS
 def generateCards():
@@ -119,7 +119,7 @@ def playmaker():
 # WRITES CSV FILE AND RUNS AS MANY LINES AS WANTED CURRENTLY SET TO 1000
 
 def outputter():
-    with open('testagain.csv','w',newline='') as file:
+    with open('training1dataset.csv','w',newline='') as file:
         writer = csv.writer(file)
         i=0
         startline = ["Card on the Table:","Cards in Hand:","Possible Move:","Applicable rule:"]
@@ -130,7 +130,7 @@ def outputter():
             writer.writerows(newlines)
 
 def outputText():
-    with open('dataset.txt','a+') as file:
+    with open('training1dataset.txt','a+') as file:
         table = "Card on the table: "
         hand = ", Cards in your hand: "
         move = ", You could play: "
@@ -139,11 +139,8 @@ def outputText():
         for i in range(numberrun):
             newline = playmaker()
             for moves in newline:
-                outputline = table + moves[0] + hand + moves[1] + move + moves[2] + rule +moves[3]
-                print(outputline)
-
-    
-    
+                outputline = table + moves[0] + hand + moves[1] + move + moves[2] + rule +moves[3]+end
+                file.write(outputline)
 
 def shuffler(array):
     random.shuffle(array)
@@ -222,6 +219,6 @@ def playcalculator(tableArray,handArray):
 # WORK IN PROGRESS UP HERE
 
 # multiStagePlaymaker(3)
-# outputter()
+outputter()
 outputText()
 
