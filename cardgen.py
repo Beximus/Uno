@@ -4,6 +4,8 @@ import numpy as np
 rules = ['it is the same color as the tabled card','it is the same type as the tabled card', 'Wild cards can be played on any colour','If there are no allowed moves you must pick up','it is the same color and type as the tabled card','Any card can be played on a Wild Normal','You have to pick up 4 cards when a Wild Draw 4 is played','You must pick up 2 cards when a Draw 2 is played']
 colorarray =['Red','Green','Blue','Yellow']
 
+numberrun = 1
+
 # GENERATES DECK OF CARDS
 def generateCards():
     deck =[]
@@ -90,7 +92,7 @@ def playmaker():
                 playrules.append(rules[0])
             elif card[1]==table[1]:
                 playoptions.append(card)
-                playrules.append(rules[2])
+                playrules.append(rules[1])
             elif card[0]=='Wild':
                 playoptions.append(card)
                 playrules.append(rules[2])
@@ -117,15 +119,31 @@ def playmaker():
 # WRITES CSV FILE AND RUNS AS MANY LINES AS WANTED CURRENTLY SET TO 1000
 
 def outputter():
-    with open('potato.csv','w',newline='') as file:
+    with open('testagain.csv','w',newline='') as file:
         writer = csv.writer(file)
         i=0
         startline = ["Card on the Table:","Cards in Hand:","Possible Move:","Applicable rule:"]
         writer.writerow(startline)
         # HOW MANY PLAYS TO GENERATE (ANYWHERE BETWEEN 1 AND 7 OPTIONS PER PLAY)
-        for i in range(5000):
+        for i in range(numberrun):
             newlines = playmaker()
             writer.writerows(newlines)
+
+def outputText():
+    with open('dataset.txt','a+') as file:
+        table = "Card on the table: "
+        hand = ", Cards in your hand: "
+        move = ", You could play: "
+        rule = ", because: "
+        end = "\n"
+        for i in range(numberrun):
+            newline = playmaker()
+            for moves in newline:
+                outputline = table + moves[0] + hand + moves[1] + move + moves[2] + rule +moves[3]
+                print(outputline)
+
+    
+    
 
 def shuffler(array):
     random.shuffle(array)
@@ -204,5 +222,6 @@ def playcalculator(tableArray,handArray):
 # WORK IN PROGRESS UP HERE
 
 # multiStagePlaymaker(3)
-outputter()
+# outputter()
+outputText()
 
