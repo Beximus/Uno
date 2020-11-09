@@ -1,0 +1,55 @@
+Card on the Table:;Cards in Hand:;Possible Move:;Applicable rule:
+Yellow Draw 2;Wild Draw 4, Red 8, Red 9, Blue 2, Green 2, Red 8, Yellow 2;Pick up 2 cards;You must pick up 2 cards when a Draw 2 is played
+Blue Draw 2;Green 9, Blue 4, Blue 7, Red 6, Wild Normal, Blue 4, Wild Normal;Pick up 2 cards;You must pick up 2 cards when a Draw 2 is played
+Green 5;Yellow 3, Blue 9, Blue 8, Yellow 3, Yellow 3, Yellow 1, Yellow 9;Pick up 1 card;If there are no allowed moves you must pick up
+Blue Reverse;Wild Normal, Red 6, Wild Normal, Blue 1, Blue 3, Yellow 5, Green Draw 2;Wild Normal;Wild cards can be played on any colour
+Blue Reverse;Wild Normal, Red 6, Wild Normal, Blue 1, Blue 3, Yellow 5, Green Draw 2;Wild Normal;Wild cards can be played on any colour
+Blue Reverse;Wild Normal, Red 6, Wild Normal, Blue 1, Blue 3, Yellow 5, Green Draw 2;Blue 1;it is the same color as the tabled card
+Blue Reverse;Wild Normal, Red 6, Wild Normal, Blue 1, Blue 3, Yellow 5, Green Draw 2;Blue 3;it is the same color as the tabled card
+Yellow Reverse;Blue 9, Wild Draw 4, Red Reverse, Blue Draw 2, Blue 4, Red Skip, Green 4;Wild Draw 4;Wild cards can be played on any colour
+Yellow Reverse;Blue 9, Wild Draw 4, Red Reverse, Blue Draw 2, Blue 4, Red Skip, Green 4;Red Reverse;Wild cards can be played on any colour
+Blue 0;Red 4, Green 8, Blue 3, Green Reverse, Yellow 6, Red Skip, Red 5;Blue 3;it is the same color as the tabled card
+Green 0;Blue 7, Red 2, Blue 7, Blue 1, Wild Normal, Green 6, Blue 0;Wild Normal;Wild cards can be played on any colour
+Green 0;Blue 7, Red 2, Blue 7, Blue 1, Wild Normal, Green 6, Blue 0;Green 6;it is the same color as the tabled card
+Green 0;Blue 7, Red 2, Blue 7, Blue 1, Wild Normal, Green 6, Blue 0;Blue 0;Wild cards can be played on any colour
+Green 6;Blue Reverse, Green Draw 2, Green 6, Green 2, Blue 8, Red 5, Blue 1;Green Draw 2;it is the same color as the tabled card
+Green 6;Blue Reverse, Green Draw 2, Green 6, Green 2, Blue 8, Red 5, Blue 1;Green 6;it is the same color as the tabled card
+Green 6;Blue Reverse, Green Draw 2, Green 6, Green 2, Blue 8, Red 5, Blue 1;Green 2;it is the same color as the tabled card
+Yellow Draw 2;Red 5, Blue 8, Blue 7, Blue Draw 2, Blue 1, Green 9, Green Skip;Pick up 2 cards;You must pick up 2 cards when a Draw 2 is played
+Red 7;Red Reverse, Yellow Reverse, Green 1, Blue 1, Green Skip, Green 5, Blue 1;Red Reverse;it is the same color as the tabled card
+Red 9;Green 5, Red 2, Yellow 3, Green Reverse, Green 9, Green 2, Yellow 7;Red 2;it is the same color as the tabled card
+Red 9;Green 5, Red 2, Yellow 3, Green Reverse, Green 9, Green 2, Yellow 7;Green 9;Wild cards can be played on any colour
+Yellow 5;Yellow 1, Yellow 7, Yellow 2, Red 4, Green 1, Blue 8, Blue 1;Yellow 1;it is the same color as the tabled card
+Yellow 5;Yellow 1, Yellow 7, Yellow 2, Red 4, Green 1, Blue 8, Blue 1;Yellow 7;it is the same color as the tabled card
+Yellow 5;Yellow 1, Yellow 7, Yellow 2, Red 4, Green 1, Blue 8, Blue 1;Yellow 2;it is the same color as the tabled card
+Red 8;Green Skip, Red Skip, Red 0, Green 3, Blue 9, Green 9, Green Draw 2;Red Skip;it is the same color as the tabled card
+Red 8;Green Skip, Red Skip, Red 0, Green 3, Blue 9, Green 9, Green Draw 2;Red 0;it is the same color as the tabled card
+Red 5;Wild Normal, Red 5, Blue Reverse, Blue Reverse, Yellow 4, Red 5, Green 2;Wild Normal;Wild cards can be played on any colour
+Red 5;Wild Normal, Red 5, Blue Reverse, Blue Reverse, Yellow 4, Red 5, Green 2;Red 5;it is the same color as the tabled card
+Red 5;Wild Normal, Red 5, Blue Reverse, Blue Reverse, Yellow 4, Red 5, Green 2;Red 5;it is the same color as the tabled card
+Yellow 1;Blue 8, Green 8, Green 9, Green 5, Green 2, Wild Normal, Green Draw 2;Wild Normal;Wild cards can be played on any colour
+Yellow 8;Yellow 4, Red 9, Blue 9, Yellow 3, Blue 7, Red 1, Red 3;Yellow 4;it is the same color as the tabled card
+Yellow 8;Yellow 4, Red 9, Blue 9, Yellow 3, Blue 7, Red 1, Red 3;Yellow 3;it is the same color as the tabled card
+Yellow 7;Red 2, Green 1, Blue 4, Green 0, Red 1, Green Skip, Yellow Draw 2;Yellow Draw 2;it is the same color as the tabled card
+Green 6;Yellow 8, Yellow 4, Green 1, Green Draw 2, Red Reverse, Green 5, Green 3;Green 1;it is the same color as the tabled card
+Green 6;Yellow 8, Yellow 4, Green 1, Green Draw 2, Red Reverse, Green 5, Green 3;Green Draw 2;it is the same color as the tabled card
+Green 6;Yellow 8, Yellow 4, Green 1, Green Draw 2, Red Reverse, Green 5, Green 3;Green 5;it is the same color as the tabled card
+Green 6;Yellow 8, Yellow 4, Green 1, Green Draw 2, Red Reverse, Green 5, Green 3;Green 3;it is the same color as the tabled card
+Yellow 4;Blue Reverse, Yellow 9, Green Reverse, Yellow 9, Blue 4, Red 8, Blue 6;Yellow 9;it is the same color as the tabled card
+Yellow 4;Blue Reverse, Yellow 9, Green Reverse, Yellow 9, Blue 4, Red 8, Blue 6;Yellow 9;it is the same color as the tabled card
+Yellow 4;Blue Reverse, Yellow 9, Green Reverse, Yellow 9, Blue 4, Red 8, Blue 6;Blue 4;Wild cards can be played on any colour
+Yellow 9;Blue 5, Green 2, Green 1, Yellow 5, Blue 8, Wild Normal, Green 3;Yellow 5;it is the same color as the tabled card
+Yellow 9;Blue 5, Green 2, Green 1, Yellow 5, Blue 8, Wild Normal, Green 3;Wild Normal;Wild cards can be played on any colour
+Blue 7;Green 9, Blue 1, Red 1, Blue 3, Green 6, Yellow 7, Blue 2;Blue 1;it is the same color as the tabled card
+Blue 7;Green 9, Blue 1, Red 1, Blue 3, Green 6, Yellow 7, Blue 2;Blue 3;it is the same color as the tabled card
+Blue 7;Green 9, Blue 1, Red 1, Blue 3, Green 6, Yellow 7, Blue 2;Yellow 7;Wild cards can be played on any colour
+Blue 7;Green 9, Blue 1, Red 1, Blue 3, Green 6, Yellow 7, Blue 2;Blue 2;it is the same color as the tabled card
+Yellow Skip;Yellow Reverse, Blue 5, Green 5, Yellow 8, Red 2, Green 5, Green 7;Yellow Reverse;it is the same color as the tabled card
+Yellow Skip;Yellow Reverse, Blue 5, Green 5, Yellow 8, Red 2, Green 5, Green 7;Yellow 8;it is the same color as the tabled card
+Yellow 7;Green 6, Blue 9, Red 9, Yellow 8, Blue Skip, Yellow 3, Red 1;Yellow 8;it is the same color as the tabled card
+Yellow 7;Green 6, Blue 9, Red 9, Yellow 8, Blue Skip, Yellow 3, Red 1;Yellow 3;it is the same color as the tabled card
+Yellow 6;Blue Draw 2, Blue 5, Blue 8, Yellow 3, Blue 4, Green 4, Green 0;Yellow 3;it is the same color as the tabled card
+Red 6;Green 4, Blue Draw 2, Blue 6, Red 4, Blue 6, Wild Draw 4, Blue 1;Blue 6;Wild cards can be played on any colour
+Red 6;Green 4, Blue Draw 2, Blue 6, Red 4, Blue 6, Wild Draw 4, Blue 1;Red 4;it is the same color as the tabled card
+Red 6;Green 4, Blue Draw 2, Blue 6, Red 4, Blue 6, Wild Draw 4, Blue 1;Blue 6;Wild cards can be played on any colour
+Red 6;Green 4, Blue Draw 2, Blue 6, Red 4, Blue 6, Wild Draw 4, Blue 1;
