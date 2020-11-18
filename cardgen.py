@@ -53,6 +53,8 @@ def handTranslator(array):
         string = string + translator(item)
         if iteration <len(array)-1:
             string = string+", "
+        else :
+            string = string+" "
     return string
 
 # FINDS POSSIBLE MOVES AND GENERATES ARRAY OF OPTIONS FOR CSV
@@ -69,8 +71,8 @@ def playmaker():
     outputRow =[]
     output =[]
 
-    outputRow.append(translator(table))
-    outputRow.append(handTranslator(hand))
+    outputRow.append(translator(table)+" ")
+    outputRow.append(" "+handTranslator(hand))
 
     # MOVE FINDER IF TREE
     if table[0] == 'Wild' and table[1] == 'Normal':
@@ -119,10 +121,10 @@ def playmaker():
 # WRITES CSV FILE AND RUNS AS MANY LINES AS WANTED CURRENTLY SET TO 1000
 
 def outputter():
-    with open('training1dataset.csv','w',newline='') as file:
+    with open('newnewtest.csv','w',newline='') as file:
         writer = csv.writer(file)
         i=0
-        startline = ["Card on the Table:","Cards in Hand:","Possible Move:","Applicable rule:"]
+        startline = ["Card on the Table: "," Cards in Hand: "," Possible Move: "," Applicable rule: "]
         writer.writerow(startline)
         # HOW MANY PLAYS TO GENERATE (ANYWHERE BETWEEN 1 AND 7 OPTIONS PER PLAY)
         for i in range(numberrun):
@@ -130,11 +132,24 @@ def outputter():
             writer.writerows(newlines)
 
 def outputText():
-    with open('training1dataset.txt','a+') as file:
+    with open('newnewtesttxt.txt','a+') as file:
         table = "Card on the table: "
         hand = ", Cards in your hand: "
         move = ", You could play: "
         rule = ", because: "
+        end = "\n"
+        for i in range(numberrun):
+            newline = playmaker()
+            for moves in newline:
+                outputline = table + moves[0] + hand + moves[1] + move + moves[2] + rule +moves[3]+end
+                file.write(outputline)
+
+def outputAltText():
+    with open('newnewtestalttext.txt','a+') as file:
+        table = ""
+        hand = " ; "
+        move = " ; "
+        rule = " ; "
         end = "\n"
         for i in range(numberrun):
             newline = playmaker()
@@ -221,4 +236,5 @@ def playcalculator(tableArray,handArray):
 # multiStagePlaymaker(3)
 outputter()
 outputText()
+outputAltText()
 
